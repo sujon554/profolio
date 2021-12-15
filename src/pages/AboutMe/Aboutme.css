@@ -1,0 +1,9 @@
+.AboutmePhoto {
+    position: left bottom;
+
+    border-radius: 8%;
+    border: 3px solid #316da5;
+    width: 50%;
+    height: auto;
+
+}

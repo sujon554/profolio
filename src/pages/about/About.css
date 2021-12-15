@@ -1,0 +1,21 @@
+.aboutInfo {
+    margin-top: 7rem;
+
+}
+
+.info {
+    text-align: left;
+    padding: auto;
+    
+   
+
+}
+.profilePhoto {
+    position: left bottom;
+
+    border-radius: 50%;
+    border: 15px solid #1e3233;
+    width: 50%;
+    height: auto;
+
+}

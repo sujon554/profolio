@@ -1,5 +1,8 @@
 .App {
+  font-family: 'Noto Sans', sans-serif;
   text-align: center;
+  background: rgb(33 37 41);
+  color: #fff;
 }
 
 .App-logo {
