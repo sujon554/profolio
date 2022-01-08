@@ -19,3 +19,9 @@
     height: auto;
 
 }
+
+
+.profilePhoto:hover {
+    
+    transform: translateY(0) scale(1.2);
+  }

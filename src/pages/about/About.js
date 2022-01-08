@@ -14,11 +14,13 @@ const About = () => {
           <h4>Junior Full Stack Developer</h4>
           <h5>Web Developer &#9679; Programmer &#9679; Software Engineer</h5>
           <Button className="px-4 py-3 m-4">Get Resume</Button>
-          <Button className="px-4 py-3 bg-white text-success">About Me</Button>
+          <Button href="#aboutInfo" className="px-4 py-3 bg-white text-success">
+            About Me
+          </Button>
         </Col>
 
         <Col>
-          <Image className="profilePhoto" sujon src={photo} alt="" fluid />
+          <Image className="profilePhoto" src={photo} alt="" fluid />
         </Col>
       </Row>
     </Container>

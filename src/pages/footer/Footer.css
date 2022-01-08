@@ -1,0 +1,10 @@
+.footer {
+    background: rgb(121, 118, 118);
+    padding:  2rem; 
+}
+
+.footer i {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #fff;
+}

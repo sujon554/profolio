@@ -4,7 +4,7 @@ import photo from "../../images/aboutme.jpg";
 import './Aboutme.css'
 const AboutMe = () => {
   return (
-    <Container className="aboutInfo py-5">
+    <Container id="aboutInfo" className="aboutInfo py-5">
           <Row xs={1} md={2}>
           <Col>
           <Image className="AboutmePhoto" sujon src={photo} alt="" fluid />

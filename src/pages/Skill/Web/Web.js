@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Container, ProgressBar, Row } from "react-bootstrap";
+import { Col, Container, ProgressBar, Row } from "react-bootstrap";
 import "./Web.css";
 const Web = () => {
   return (
