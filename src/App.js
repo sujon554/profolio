@@ -6,6 +6,7 @@ import Skill from './pages/Skill/Skill/Skill';
 import SwiperSlides from "./pages/swipers/SwiperSlides";
 import Contacts from "./pages/contacts/Contacts";
 import Footer from "./pages/footer/Footer";
+import SkillIcon from "./pages/SkillIcon/SkillIcon";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <About></About>
       <AboutMe></AboutMe>
+      <SkillIcon></SkillIcon>
       <Skill></Skill>
       <SwiperSlides></SwiperSlides>
       <Contacts></Contacts>

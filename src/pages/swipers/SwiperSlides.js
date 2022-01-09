@@ -16,54 +16,76 @@ import photo from "../../images/projects/1.jpg";
 import photo2 from "../../images/projects/2.jpg";
 import photo3 from "../../images/projects/3.3.jpg";
 import photo4 from "../../images/projects/4.jpg";
+import photo5 from "../../images/projects/5.jpg";
+import photo6 from "../../images/projects/6.jpg";
+import photo7 from "../../images/projects/7.jpg";
+import photo8 from "../../images/projects/8.jpg";
 
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
 const SwiperSlides = () => {
   return (
-    <div className="container">
-      <div className="title_wrapper">
-        <div className="title_">
-          <h1>Project's</h1>
+    <div className="swiperSlider">
+      <div className="container">
+        <div className="title_wrapper">
+          <div className="title_">
+            <h1>Project's</h1>
+          </div>
         </div>
+        <Swiper
+          navigation={true}
+          effect={"coverflow"}
+          centeredSlides={true}
+          slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
+          loop={true}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <Image src={photo} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src={photo2} />
+            <button className="btn btn-primary">
+              <a href="https://upbeat-bell-7434a8.netlify.app/" target="_blank">
+                Live Site
+              </a>
+            </button>
+            <button className="btn2 btn-success">GitHub</button>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src={photo3} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image src={photo4} />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Image src={photo5} />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Image src={photo6} />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Image src={photo7} />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Image src={photo8} />
+          </SwiperSlide>
+        </Swiper>
       </div>
-      <Swiper
-        navigation={true}
-        effect={"coverflow"}
-        centeredSlides={true}
-        slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
-        loop={true}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <Image src={photo} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={photo2} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={photo3} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={photo4} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://picsum.photos/id/237/200/300" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src="https://picsum.photos/id/237/200/300" />
-        </SwiperSlide>
-      </Swiper>
     </div>
   );
 };

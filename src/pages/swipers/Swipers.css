@@ -1,22 +1,22 @@
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
-/* body {
-  background: #eee;
+.swiperSlider {
+  background: rgb(145, 145, 145);
   position: relative;
   width: 100%;
   height: 100vh;
   font-family: 'Martel', serif;
   overflow: hidden;
-} */
+}
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 600px;
 }
 
 @media (max-width: 768px) {
@@ -37,7 +37,7 @@
 .containers {
   position: relative;
   width: 100%;
-  height: 60vh;
+  height: 90vh;
   background-color: rgb(85, 71, 71);
   display: block;
 }
@@ -123,4 +123,34 @@
   height: 5px;
   border-radius: 5px;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.mySwiper .btn {
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(255, 46, 46, 0.616);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.mySwiper .btn2 {
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(117, 116, 116, 0.658);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
