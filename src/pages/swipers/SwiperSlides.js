@@ -10,7 +10,7 @@ import SwiperCore, {
   Pagination,
   Navigation,
 } from "swiper/core";
-import { Image } from "react-bootstrap";
+import { Button, Image } from "react-bootstrap";
 
 import photo from "../../images/projects/1.jpg";
 import photo2 from "../../images/projects/2.jpg";
@@ -53,18 +53,23 @@ const SwiperSlides = () => {
           <SwiperSlide>
             <Image src={photo} />
           </SwiperSlide>
+
           <SwiperSlide>
             <Image src={photo2} />
-            <button className="btn btn-primary">
-              <a href="https://upbeat-bell-7434a8.netlify.app/" target="_blank">
+            <Button className="btn btn-success ">
+              <a
+              className="text-decoration-none text-white" 
+              href="https://upbeat-bell-7434a8.netlify.app" target="_blank">
                 Live Site
               </a>
-            </button>
-            <button className="btn2 btn-success">GitHub</button>
+            </Button>
+            <Button className="btn2 btn-success">GitHub</Button>
           </SwiperSlide>
+
           <SwiperSlide>
             <Image src={photo3} />
           </SwiperSlide>
+          
           <SwiperSlide>
             <Image src={photo4} />
           </SwiperSlide>

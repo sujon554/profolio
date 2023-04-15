@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import photo from "../../images/aboutme.jpg";
 import './Aboutme.css'
+import Myresume from './MD_MOSTOFA_Resume.fd.pdf'
 const AboutMe = () => {
   return (
     <Container id="aboutInfo" className="aboutInfo py-5">
@@ -21,7 +22,7 @@ const AboutMe = () => {
             am available for any kind of job opportunity that suits my
             interests.
           </p>
-          <Button className="px-4 py-3 m-4">Get Resume</Button>
+          <Button className="px-4 py-3 m-4 "><a className="text-white text-decoration-none" href={Myresume} download="MD_MOSTOFA_Resume.fd.pdf">Get Resume</a></Button>
           <Button className="px-4 py-3 bg-white text-success">About Me</Button>
         </Col>
 

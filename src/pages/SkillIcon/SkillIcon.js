@@ -15,14 +15,14 @@ const SkillIcon = () => {
     <Container>
       <Row>
         <h1>My Skill's</h1>
-        <div className="d-flex flex-row bd-highlight mb-3">
+        <div className="d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
           <div className="p-2">
             <h1>
               <i class="fab fa-react"></i>
             </h1>
             <Figure>React</Figure>
           </div>
-          <div className="p-2">
+          {/* <div className="p-2">
             <h1>
               <i class="fab fa-vuejs"></i>
             </h1>
@@ -33,7 +33,7 @@ const SkillIcon = () => {
               <i class="fab fa-react"></i>
             </h1>
             <Figure>Native</Figure>
-          </div>
+          </div> */}
           <div className="p-2">
             <h1>
               <img src={material} alt="" />
@@ -59,12 +59,7 @@ const SkillIcon = () => {
             </h1>
             <Figure>sass</Figure>
           </div>
-          <div className="p-2">
-            <h1>
-              <i class="fab fa-html5"></i>
-            </h1>
-            <Figure>HTML</Figure>
-          </div>
+        
 
           <div className="p-2">
             <h1>
@@ -72,11 +67,18 @@ const SkillIcon = () => {
             </h1>
             <Figure>CSS</Figure>
           </div>
+
+          <div className="p-2">
+            <h1>
+              <i class="fab fa-html5"></i>
+            </h1>
+            <Figure>HTML</Figure>
+          </div>
         </div>
 
         <hr />
 
-        <div className="d-flex flex-row bd-highlight mb-3">
+        <div className="d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
           <div className="p-2">
             <h1>
               <i class="fab fa-js"></i>
@@ -84,7 +86,7 @@ const SkillIcon = () => {
             <Figure>JavaScript</Figure>
           </div>
 
-          <div className="p-2">
+          {/* <div className="p-2">
             <h1>
               <i class="fab fa-java"></i>
             </h1>
@@ -101,7 +103,7 @@ const SkillIcon = () => {
               <i class="fab fa-cuttlefish"></i>
             </h1>
             <Figure>C</Figure>
-          </div>
+          </div> */}
           <div className="p-2">
             <h1>
               <i class="fab fa-node-js"></i>
@@ -128,12 +130,12 @@ const SkillIcon = () => {
             </h1>
             <Figure>MongoDB</Figure>
           </div>
-          <div className="p-2">
+          {/* <div className="p-2">
             <h1>
               <Image src={mysql} />
             </h1>
             <Figure>MySQL</Figure>
-          </div>
+          </div> */}
 
           <div className="p-2">
             <h1>
@@ -150,12 +152,19 @@ const SkillIcon = () => {
           </div>
           <div className="p-2">
             <h1>
+              <i class="fab fa-yarn"></i>
+            </h1>
+            <Figure>Yarn</Figure>
+          </div>
+          <div className="p-2">
+            <h1>
               <i class="fab fa-npm"></i>
             </h1>
             <Figure>NPM</Figure>
           </div>
+         
 
-          <div className="p-2">
+          {/* <div className="p-2">
             <h1>
               <img src={ps} alt="" />
             </h1>
@@ -166,7 +175,7 @@ const SkillIcon = () => {
               <i class="fab fa-figma"></i>
             </h1>
             <Figure>Figma</Figure>
-          </div>
+          </div> */}
         </div>
       </Row>
     </Container>

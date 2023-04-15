@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import "./Footer.css";
 
 const Footer = () => {
@@ -25,9 +26,9 @@ const Footer = () => {
               <i class="fab fa-twitter"></i>
             </a>
 
-            <button onclick="" id="myBtn" title="Go to top">
+            <Button href="#about" id="myBtn" title="Go to top">
               <i class="fas fa-arrow-alt-circle-up"></i>
-            </button>
+            </Button>
           </div>
         </div>
       </div>

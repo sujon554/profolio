@@ -32,6 +32,7 @@ const WebProjects = () => {
               <Button
                 href="https://upbeat-bell-7434a8.netlify.app"
                 target="_blank"
+              
               >
                 Live site
               </Button>

@@ -20,8 +20,15 @@
 
 }
 
+h4::first-letter {
+    font-family: Lucida Calligraphy;
+    font-size: 3rem;
+}
+
 
 .profilePhoto:hover {
-    
+    transition-delay: .5s;
+    transition-duration: 1s;
     transform: translateY(0) scale(1.2);
+    
   }
