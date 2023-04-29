@@ -69,7 +69,7 @@ const SwiperSlides = () => {
           <SwiperSlide>
             <Image src={photo3} />
           </SwiperSlide>
-          
+
           <SwiperSlide>
             <Image src={photo4} />
           </SwiperSlide>

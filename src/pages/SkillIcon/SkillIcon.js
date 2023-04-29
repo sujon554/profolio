@@ -6,8 +6,9 @@ import tailwind from "../../images/icon/tailwind.png";
 import material from "../../images/icon/material.png";
 // import native from "../../images/icon/native.png";
 import mongodb from "../../images/icon/mongodb.png";
-import mysql from "../../images/icon/mysql.png";
-import ps from "../../images/icon/ps.png";
+import redux from "../../images/icon/redux.png";
+// import mysql from "../../images/icon/mysql.png";
+// import ps from "../../images/icon/ps.png";
 import firebase from "../../images/icon/firebase.png";
 
 const SkillIcon = () => {
@@ -21,6 +22,13 @@ const SkillIcon = () => {
               <i class="fab fa-react"></i>
             </h1>
             <Figure>React</Figure>
+          </div>
+
+          <div className="p-2">
+            <h1>
+            <Image className="w-75 " src={redux} />
+            </h1>
+            <Figure className="mt-3">Redux</Figure>
           </div>
           {/* <div className="p-2">
             <h1>
@@ -36,15 +44,15 @@ const SkillIcon = () => {
           </div> */}
           <div className="p-2">
             <h1>
-              <img src={material} alt="" />
+              <Image className="w-75 "  src={material} alt="" />
             </h1>
-            <Figure>Material UI</Figure>
+            <Figure className="mt-2">Material UI</Figure>
           </div>
           <div className="p-2">
             <h1>
               <img src={tailwind} alt="" />
             </h1>
-            <Figure>Tailwind CSS</Figure>
+            <Figure className="mt-2">Tailwind CSS</Figure>
           </div>
 
           <div className="p-2">
