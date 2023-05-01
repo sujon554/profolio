@@ -8,7 +8,21 @@ const AboutMe = () => {
     <Container id="aboutInfo" className="aboutInfo py-5">
           <Row xs={1} md={2}>
           <Col>
-          <Image className="AboutmePhoto" sujon src={photo} alt="" fluid />
+          {/* <Image className="AboutmePhoto" sujon src={photo} alt="" fluid /> */}
+
+
+<div className="animation">
+<div className="box">
+    <div>
+      <span><i class="fab fa-facebook"></i></span>
+      <span><i class="fab fa-youtube"></i></span>
+      <span><i class="fab fa-discord"></i></span>
+      <span><i class="fab fa-twitter"></i></span>
+    </div>
+  </div>
+</div>
+
+
               </Col>
               
         <Col className="info ps-5">
