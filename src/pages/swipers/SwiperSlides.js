@@ -51,44 +51,188 @@ const SwiperSlides = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <Image src={photo} />
+            <Image src={photo4} />
+            <Button className="btn btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href=""
+                target="_blank"
+              >
+                Live Site{" "}
+              </a>
+            </Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href=""
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
           </SwiperSlide>
 
+
           <SwiperSlide>
-            <Image src={photo2} />
-            <Button className="btn btn-success ">
+            <Image src={photo} />
+            <Button className="btn btn-success">
               <a
-              className="text-decoration-none text-white" 
-              href="https://upbeat-bell-7434a8.netlify.app" target="_blank">
+                className="text-decoration-none text-white"
+                href="https://tour-travel-554.netlify.app"
+                target="_blank"
+              >
+                Live Site{" "}
+              </a>
+            </Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://github.com/sujon554/paradise-tour-client"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
+          </SwiperSlide>
+
+
+          <SwiperSlide className="swissClock">
+            <Image src={photo2} />
+            <Button className="btn btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://swisseagle.netlify.app/home"
+                target="_blank"
+              >
                 Live Site
               </a>
             </Button>
-            <Button className="btn2 btn-success">GitHub</Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://github.com/sujon554/swiss-watch"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
           </SwiperSlide>
+
 
           <SwiperSlide>
             <Image src={photo3} />
+            <Button className="btn btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://lovely-lamington-a3e4ec.netlify.app/"
+                target="_blank"
+              >
+                Live Site{" "}
+              </a>
+            </Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://github.com/sujon554/doctors-portal"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
           </SwiperSlide>
 
-          <SwiperSlide>
+
+          <SwiperSlide >
             <Image src={photo4} />
+            <Button className="btn btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://lucky-crepe-ac7866.netlify.app/"
+                target="_blank"
+              >
+                Live Site{" "}
+              </a>
+            </Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://github.com/sujon554/genus-car-mecanic"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <Image src={photo5} />
-          </SwiperSlide>
 
           <SwiperSlide>
             <Image src={photo6} />
+            <Button className="btn btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href=""
+                target="_blank"
+              >
+                Live Site{" "}
+              </a>
+            </Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href=""
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
           </SwiperSlide>
+
 
           <SwiperSlide>
             <Image src={photo7} />
+            <Button className="btn btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href=""
+                target="_blank"
+              >
+                Live Site{" "}
+              </a>
+            </Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href=""
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
           </SwiperSlide>
+
 
           <SwiperSlide>
             <Image src={photo8} />
+            <Button className="btn btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href=""
+                target="_blank"
+              >
+                Live Site{" "}
+              </a>
+            </Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href=""
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
           </SwiperSlide>
+
         </Swiper>
       </div>
     </div>

@@ -8,7 +8,7 @@ import React from "react";
            <h5 className="py-5 lh-base text-center">
              I am interested in working with any company that thinks my skill
              will be helpful for them. If you are looking for someone like me,
-             Please let me know or You can just say "hello" t me.
+             Please let me know or You can just say "Hello"  me.
            </h5>
          </div>
          <div className="col">
