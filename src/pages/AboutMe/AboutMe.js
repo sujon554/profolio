@@ -2,7 +2,8 @@ import React from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import photo from "../../images/aboutme.jpg";
 import './Aboutme.css'
-import Myresume from './MD_MOSTOFA_Resume.fd.pdf'
+import Myresume from './MD_MOSTOFA_Resume.fd.pdf';
+import tailwind from "../../images/icon/tailwind.png";
 const AboutMe = () => {
   return (
     <Container id="aboutInfo" className="aboutInfo py-5">
@@ -14,10 +15,10 @@ const AboutMe = () => {
 <div className="animation">
 <div className="box">
     <div>
-      <span><i class="fab fa-facebook"></i></span>
-      <span><i class="fab fa-youtube"></i></span>
-      <span><i class="fab fa-discord"></i></span>
-      <span><i class="fab fa-twitter"></i></span>
+      <span><i class="fab fa-react"></i></span>
+      <span><i class="fab fa-js"></i></span>
+      <span><i class="fab fa-css3-alt"></i></span>
+      <span> <img width={75} src={tailwind} alt="" /></span>
     </div>
   </div>
 </div>
@@ -27,7 +28,7 @@ const AboutMe = () => {
               
         <Col className="info ps-5">
           <p>
-            Hello! i'm Mostofa Sujon, a junior software engineer. I develop web
+            Hello ! I'm Mostofa Sujon, a junior software engineer. I develop web
             application, mobile applications, and desktop applications. My core
             skill is based on JavaScript and I love to do most of the things
             using JavaScript. I love to make the web more open to the world. I

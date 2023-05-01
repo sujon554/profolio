@@ -10,7 +10,7 @@
 .animation {
     margin: 0;
     padding: 0;
-    background-color: rgb(201, 201, 201);
+    /* background-color: rgb(201, 201, 201); */
 }
 
 
@@ -18,7 +18,7 @@
     position: relative;
     top: calc(50% - 150px);
     left: calc(50% - 100px);
-    transform: perspective(1000px) rotateX(90deg);
+    transform: perspective(1000px) rotateY(60deg);
     width: 200px;
     height: 300px;
     transform-style: preserve-3d;
@@ -27,13 +27,12 @@
 .box:before {
 content: "";
 position: absolute;
-bottom: -100px;
+bottom: -60px;
 left: 0;
 width: 100%;
 height: 50px;
-background: #222;
-filter: blur(40px);
-opacity: 0.5;
+background: #36f2ff;
+filter: blur(50px);
 transform: rotateX(90deg);
 }
 
@@ -56,10 +55,9 @@ transform: rotateX(90deg);
     width: 100%;
     height: 100%;
     padding: 30px;
-    /* background: linear-gradient( -45deg, #ffffff); */
-    background:  #ffffff;
+    background: linear-gradient( -45deg, #a6f5fa, #ffffff );
     border-radius: 20px;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .box div span i {
@@ -72,7 +70,7 @@ transform: rotateX(90deg);
     transform: rotateX(180deg);
 }
 .box div span:nth-child(1) {
-    color: #063f70;
+    color: #0088ff;
     transform: rotateX(0deg);
 }
 .box div span:nth-child(2) {
@@ -80,19 +78,19 @@ transform: rotateX(90deg);
     transform: rotateX(45deg);
 }
 .box div span:nth-child(3){
-    color: red;
+    color: rgb(255, 0, 0);
     transform: rotateX(-45deg);
 }
 .box div span:nth-child(4){
-    color:blue;
     transform: rotateX(90deg);
 }
 
+
 @keyframes animate {
     0% {
-        transform: perspective(1000px) rotateX(90deg);
+        transform: perspective(1000px) rotateX(360deg);
     }
     100% {
-        transform: perspective(1000px) rotateX(360deg);
+        transform: perspective(1000px) rotateX(45deg);
     }
 }
