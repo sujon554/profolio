@@ -10,13 +10,14 @@ import redux from "../../images/icon/redux.png";
 // import mysql from "../../images/icon/mysql.png";
 // import ps from "../../images/icon/ps.png";
 import firebase from "../../images/icon/firebase.png";
+import 'animate.css';
 
 const SkillIcon = () => {
   return (
     <Container>
       <Row>
         <h1>My Skill's</h1>
-        <div className="d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
+        <div className="animate__animated animate__backInLeft d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
           <div className="p-2">
             <h1>
               <i class="fab fa-react"></i>
@@ -30,18 +31,7 @@ const SkillIcon = () => {
             </h1>
             <Figure className="mt-3">Redux</Figure>
           </div>
-          {/* <div className="p-2">
-            <h1>
-              <i class="fab fa-vuejs"></i>
-            </h1>
-            <Figure>Vue JS</Figure>
-          </div>
-          <div className="p-2">
-            <h1>
-              <i class="fab fa-react"></i>
-            </h1>
-            <Figure>Native</Figure>
-          </div> */}
+  
           <div className="p-2">
             <h1>
               <Image className="w-75 "  src={material} alt="" />
@@ -86,7 +76,7 @@ const SkillIcon = () => {
 
         <hr />
 
-        <div className="d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
+        <div className="animate__animated animate__backInRight d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
           <div className="p-2">
             <h1>
               <i class="fab fa-js"></i>
@@ -94,24 +84,6 @@ const SkillIcon = () => {
             <Figure>JavaScript</Figure>
           </div>
 
-          {/* <div className="p-2">
-            <h1>
-              <i class="fab fa-java"></i>
-            </h1>
-            <Figure>Java</Figure>
-          </div>
-          <div className="p-2">
-            <h1>
-              <i class="fab fa-python"></i>
-            </h1>
-            <Figure>Python</Figure>
-          </div>
-          <div className="p-2">
-            <h1>
-              <i class="fab fa-cuttlefish"></i>
-            </h1>
-            <Figure>C</Figure>
-          </div> */}
           <div className="p-2">
             <h1>
               <i class="fab fa-node-js"></i>
@@ -138,12 +110,6 @@ const SkillIcon = () => {
             </h1>
             <Figure>MongoDB</Figure>
           </div>
-          {/* <div className="p-2">
-            <h1>
-              <Image src={mysql} />
-            </h1>
-            <Figure>MySQL</Figure>
-          </div> */}
 
           <div className="p-2">
             <h1>
@@ -170,20 +136,7 @@ const SkillIcon = () => {
             </h1>
             <Figure>NPM</Figure>
           </div>
-         
-
-          {/* <div className="p-2">
-            <h1>
-              <img src={ps} alt="" />
-            </h1>
-            <Figure>Figma</Figure>
-          </div>
-          <div className="p-2">
-            <h1>
-              <i class="fab fa-figma"></i>
-            </h1>
-            <Figure>Figma</Figure>
-          </div> */}
+    
         </div>
       </Row>
     </Container>

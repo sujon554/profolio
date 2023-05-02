@@ -1,0 +1,48 @@
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(
+        var(--bounce-offset)
+      );
+    }
+  }
+
+  .box {
+    animation:
+      bounce alternate infinite
+      cubic-bezier(.2, .65, .6, 1);
+  }
+  .box.React {
+    --bounce-offset: -20px;
+    animation-duration: 200ms;
+  }
+  .box.Redux {
+    --bounce-offset: -30px;
+    animation-duration: 300ms;
+  }
+  .box.Material {
+    --bounce-offset: -40px;
+    animation-duration: 400ms;
+  }
+  .box.Tailwind {
+    --bounce-offset: -50px;
+    animation-duration: 500ms;
+  }
+  .box.Bootstrap {
+    --bounce-offset: -60px;
+    animation-duration: 600ms;
+  }
+  .box.sass {
+    --bounce-offset: -70px;
+    animation-duration: 700ms;
+  }
+  .box.css {
+    --bounce-offset: -70px;
+    animation-duration: 700ms;
+  }
+  .box.html {
+    --bounce-offset: -70px;
+    animation-duration: 700ms;
+  }
