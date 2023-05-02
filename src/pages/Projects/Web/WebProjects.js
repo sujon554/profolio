@@ -24,7 +24,7 @@ const WebProjects = () => {
     <div className="webProject">
       <Row xs={1} md={2} className="g-4">
         <Col>
-          <Card class="tileContainer">
+          <Card className="tileContainer">
             <Card.Img variant="top" src={photo} />
             <Card.Body>
               <Card.Title>Paradise Tour Travel</Card.Title>

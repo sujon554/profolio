@@ -7,18 +7,20 @@ import SwiperSlides from "./pages/swipers/SwiperSlides";
 import Contacts from "./pages/contacts/Contacts";
 import Footer from "./pages/footer/Footer";
 import SkillIcon from "./pages/SkillIcon/SkillIcon";
+import Service from './pages/service/Service';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <About></About>
-      <AboutMe></AboutMe>
-      <SkillIcon></SkillIcon>
+      <Header/>
+      <About/>
+      <AboutMe/>
+      <Service />
+      <SkillIcon/>
       <Skill></Skill>
-      <SwiperSlides></SwiperSlides>
-      <Contacts></Contacts>
-      <Footer></Footer>
+      <SwiperSlides/>
+      <Contacts/>
+      <Footer/>
     </div>
   );
 }

@@ -20,7 +20,7 @@ const SkillIcon = () => {
         <div className="animate__animated animate__backInLeft d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
           <div className="p-2">
             <h1>
-              <i class="fab fa-react"></i>
+              <i className="fab fa-react"></i>
             </h1>
             <Figure>React</Figure>
           </div>
@@ -47,13 +47,13 @@ const SkillIcon = () => {
 
           <div className="p-2">
             <h1>
-              <i class="fab fa-bootstrap"></i>
+              <i className="fab fa-bootstrap"></i>
             </h1>
             <Figure>Bootstrap</Figure>
           </div>
           <div className="p-2">
             <h1>
-              <i class="fab fa-sass"></i>
+              <i className="fab fa-sass"></i>
             </h1>
             <Figure>sass</Figure>
           </div>
@@ -61,14 +61,14 @@ const SkillIcon = () => {
 
           <div className="p-2">
             <h1>
-              <i class="fab fa-css3-alt"></i>
+              <i className="fab fa-css3-alt"></i>
             </h1>
             <Figure>CSS</Figure>
           </div>
 
           <div className="p-2">
             <h1>
-              <i class="fab fa-html5"></i>
+              <i className="fab fa-html5"></i>
             </h1>
             <Figure>HTML</Figure>
           </div>
@@ -79,14 +79,14 @@ const SkillIcon = () => {
         <div className="animate__animated animate__backInRight d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
           <div className="p-2">
             <h1>
-              <i class="fab fa-js"></i>
+              <i className="fab fa-js"></i>
             </h1>
             <Figure>JavaScript</Figure>
           </div>
 
           <div className="p-2">
             <h1>
-              <i class="fab fa-node-js"></i>
+              <i className="fab fa-node-js"></i>
             </h1>
             <Figure>Node JS</Figure>
           </div>
@@ -113,26 +113,26 @@ const SkillIcon = () => {
 
           <div className="p-2">
             <h1>
-              <i class="fab fa-git-alt"></i>
+              <i className="fab fa-git-alt"></i>
             </h1>
             <Figure>Git</Figure>
           </div>
 
           <div className="p-2">
             <h1>
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </h1>
             <Figure>Github</Figure>
           </div>
           <div className="p-2">
             <h1>
-              <i class="fab fa-yarn"></i>
+              <i className="fab fa-yarn"></i>
             </h1>
             <Figure>Yarn</Figure>
           </div>
           <div className="p-2">
             <h1>
-              <i class="fab fa-npm"></i>
+              <i className="fab fa-npm"></i>
             </h1>
             <Figure>NPM</Figure>
           </div>

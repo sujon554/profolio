@@ -1,6 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
-import photo from "../../images/aboutme.jpg";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import './Aboutme.css'
 import Myresume from './MD_MOSTOFA_Resume.fd.pdf';
 import tailwind from "../../images/icon/tailwind.png";
@@ -9,15 +8,14 @@ const AboutMe = () => {
     <Container id="aboutInfo" className="aboutInfo py-5">
           <Row xs={1} md={2}>
           <Col>
-          {/* <Image className="AboutmePhoto" sujon src={photo} alt="" fluid /> */}
 
 
 <div className="animation">
 <div className="box">
     <div>
-      <span><i class="fab fa-react"></i></span>
-      <span><i class="fab fa-js"></i></span>
-      <span><i class="fab fa-css3-alt"></i></span>
+      <span><i className="fab fa-react"></i></span>
+      <span><i className="fab fa-js"></i></span>
+      <span><i className="fab fa-css3-alt"></i></span>
       <span> <img width={75} src={tailwind} alt="" /></span>
     </div>
   </div>

@@ -59,6 +59,7 @@ const SwiperSlides = () => {
                 className="text-decoration-none text-white"
                 href="https://technohaat.netlify.app/home"
                 target="_blank"
+                rel="noreferrer"
               >
                 Live Site{" "}
               </a>
@@ -68,6 +69,7 @@ const SwiperSlides = () => {
                 className="text-decoration-none text-white"
                 href="https://github.com/sujon554/thchnoLab"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -80,7 +82,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://blooming-volcanoes-six.vercel.app/"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 Live Site{" "}
               </a>
@@ -89,7 +91,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://github.com/blooming-volcanoes/GrabBug-Client"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 GitHub
               </a>
@@ -102,7 +104,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://tour-travel-554.netlify.app"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 Live Site{" "}
               </a>
@@ -111,7 +113,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://github.com/sujon554/paradise-tour-client"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 GitHub
               </a>
@@ -125,7 +127,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://swisseagle.netlify.app/home"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 Live Site
               </a>
@@ -134,7 +136,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://github.com/sujon554/swiss-watch"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 GitHub
               </a>
@@ -148,7 +150,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://doctors-cares.netlify.app/home"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 Live Site{" "}
               </a>
@@ -157,7 +159,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://github.com/sujon554/doctors-portal"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 GitHub
               </a>
@@ -171,7 +173,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://car-servicstor.netlify.app/"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 Live Site{" "}
               </a>
@@ -180,7 +182,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://github.com/sujon554/genus-car-mecanic"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 GitHub
               </a>
@@ -194,19 +196,15 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://bigbazars.netlify.app/"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 Live Site{" "}
               </a>
             </Button>
             <Button className="btn2 btn-success">
-              <a
-                className="text-decoration-none text-white"
-                href=""
-                target="_blank"
-              >
+             
                 GitHub
-              </a>
+           
             </Button>
           </SwiperSlide>
 
@@ -217,7 +215,7 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://honda-cbr-554.netlify.app/"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 Live Site{" "}
               </a>
@@ -226,8 +224,8 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://github.com/sujon554/honda"
-                target="_blank"
-              >
+                target="_blank"  rel="noreferrer"
+              > 
                 GitHub
               </a>
             </Button>
@@ -240,19 +238,15 @@ const SwiperSlides = () => {
               <a
                 className="text-decoration-none text-white"
                 href="https://laughing-clarke-f58835.netlify.app/"
-                target="_blank"
+                target="_blank"  rel="noreferrer"
               >
                 Live Site{" "}
               </a>
             </Button>
             <Button className="btn2 btn-success">
-              <a
-                className="text-decoration-none text-white"
-                href=""
-                target="_blank"
-              >
+           
                 GitHub
-              </a>
+             
             </Button>
           </SwiperSlide>
 

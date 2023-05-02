@@ -22,16 +22,16 @@ import React from "react";
 
            <h2>Social</h2>
 
-           <a href="https://www.linkedin.com/in/sujon554/" target="_blank">
-             <i class="fab fa-linkedin"></i>
+           <a href="https://www.linkedin.com/in/sujon554/" target="_blank"  rel="noreferrer">
+             <i className="fab fa-linkedin"></i>
            </a>
 
-           <a href="https://www.facebook.com/sujon554/" target="_blank">
-             <i class="fab fa-facebook"></i>
+           <a href="https://www.facebook.com/sujon554/" target="_blank"  rel="noreferrer">
+             <i className="fab fa-facebook"></i>
            </a>
 
-           <a href="https://twitter.com/sujon554" target="_blank">
-             <i class="fab fa-twitter"></i>
+           <a href="https://twitter.com/sujon554" target="_blank"  rel="noreferrer">
+             <i className="fab fa-twitter"></i>
            </a>
 
            <h2>Phone</h2>

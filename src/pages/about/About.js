@@ -21,7 +21,7 @@ const About = () => {
         </Col>
 
         <Col>
-          <Image className="profilePhoto" src={photo} alt="" fluid />
+          <Image fluid className="profilePhoto" src={photo} alt=""  />
         </Col>
       </Row>
     </Container>
