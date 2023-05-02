@@ -15,12 +15,13 @@ import { Button, Image } from "react-bootstrap";
 
 import photo from "../../images/projects/1.jpg";
 import photo2 from "../../images/projects/2.jpg";
-import photo3 from "../../images/projects/3.3.jpg";
+import photo3 from "../../images/projects/3.jpg";
 import photo4 from "../../images/projects/4.jpg";
-// import photo5 from "../../images/projects/5.jpg";
+import photo5 from "../../images/projects/5.jpg";
 import photo6 from "../../images/projects/6.jpg";
 import photo7 from "../../images/projects/7.jpg";
 import photo8 from "../../images/projects/8.jpg";
+import photo9 from "../../images/projects/9.jpg";
 
 
 const SwiperSlides = () => {
@@ -52,11 +53,11 @@ const SwiperSlides = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <Image src={photo4} />
+            <Image src={photo5} />
             <Button className="btn btn-success">
               <a
                 className="text-decoration-none text-white"
-                href=""
+                href="https://technohaat.netlify.app/home"
                 target="_blank"
               >
                 Live Site{" "}
@@ -65,7 +66,7 @@ const SwiperSlides = () => {
             <Button className="btn2 btn-success">
               <a
                 className="text-decoration-none text-white"
-                href=""
+                href="https://github.com/sujon554/thchnoLab"
                 target="_blank"
               >
                 GitHub
@@ -73,6 +74,27 @@ const SwiperSlides = () => {
             </Button>
           </SwiperSlide>
 
+          <SwiperSlide>
+            <Image src={photo9} />
+            <Button className="btn btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://blooming-volcanoes-six.vercel.app/"
+                target="_blank"
+              >
+                Live Site{" "}
+              </a>
+            </Button>
+            <Button className="btn2 btn-success">
+              <a
+                className="text-decoration-none text-white"
+                href="https://github.com/blooming-volcanoes/GrabBug-Client"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </Button>
+          </SwiperSlide>
 
           <SwiperSlide>
             <Image src={photo} />
@@ -125,7 +147,7 @@ const SwiperSlides = () => {
             <Button className="btn btn-success">
               <a
                 className="text-decoration-none text-white"
-                href="https://lovely-lamington-a3e4ec.netlify.app/"
+                href="https://doctors-cares.netlify.app/home"
                 target="_blank"
               >
                 Live Site{" "}
@@ -148,7 +170,7 @@ const SwiperSlides = () => {
             <Button className="btn btn-success">
               <a
                 className="text-decoration-none text-white"
-                href="https://lucky-crepe-ac7866.netlify.app/"
+                href="https://car-servicstor.netlify.app/"
                 target="_blank"
               >
                 Live Site{" "}
@@ -171,7 +193,7 @@ const SwiperSlides = () => {
             <Button className="btn btn-success">
               <a
                 className="text-decoration-none text-white"
-                href=""
+                href="https://bigbazars.netlify.app/"
                 target="_blank"
               >
                 Live Site{" "}
@@ -194,7 +216,7 @@ const SwiperSlides = () => {
             <Button className="btn btn-success">
               <a
                 className="text-decoration-none text-white"
-                href=""
+                href="https://honda-cbr-554.netlify.app/"
                 target="_blank"
               >
                 Live Site{" "}
@@ -203,7 +225,7 @@ const SwiperSlides = () => {
             <Button className="btn2 btn-success">
               <a
                 className="text-decoration-none text-white"
-                href=""
+                href="https://github.com/sujon554/honda"
                 target="_blank"
               >
                 GitHub
@@ -217,7 +239,7 @@ const SwiperSlides = () => {
             <Button className="btn btn-success">
               <a
                 className="text-decoration-none text-white"
-                href=""
+                href="https://laughing-clarke-f58835.netlify.app/"
                 target="_blank"
               >
                 Live Site{" "}
