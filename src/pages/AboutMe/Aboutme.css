@@ -85,8 +85,14 @@ transform: rotateX(90deg);
     transform: rotateX(90deg);
 }
 
+.fab {
+color: #ffffff;
+}
 .fab:hover {
-color: #fff;
+color: #1e3233;
+font-size: 2rem;
+border-radius: 50%;
+border: 1px solid #fff;
 }
 
 @keyframes animate {

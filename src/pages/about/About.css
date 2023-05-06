@@ -6,20 +6,18 @@
 .info {
     text-align: left;
     padding: auto;
-    
-   
-
 }
 .profilePhoto {
     position: left bottom;
-
     border-radius: 50%;
     border: 15px solid #1e3233;
     width: 50%;
     height: auto;
 
 }
-
+.resumeButton {
+    background-color: #1e3233 !important;
+}
 
 h4::first-letter {
     font-family: Lucida Calligraphy;
