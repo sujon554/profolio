@@ -7,10 +7,5 @@
 }
 
 .InputFile {
-    width: 80%;
-}
-
-.InputFile {
-    /* margin: 10px 0px; */
-    flex: left;
+    width: 100%;
 }

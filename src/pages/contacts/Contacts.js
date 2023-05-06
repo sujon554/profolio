@@ -1,12 +1,13 @@
 import React, { useRef } from "react";
 import "./Contacts.css";
 import { Button } from "react-bootstrap";
-// import { toast } from 'react-toastify';
-  // import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import emailjs from "@emailjs/browser";
 
 const Contacts = () => {
-
+  const success = <i className="fa-regular fa-circle-check"></i>;
+  const wrong = <i className="fa-regular fa-circle-xmark"></i>;
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -15,12 +16,21 @@ const Contacts = () => {
 
     emailjs.sendForm('service_qu74q3i', 'template_3asmhbl', form.current, 'UlBs5qUYExBBP8IxN')
       .then((result) => {
-          console.log(result.text);
+         toast.info("Send Your Message !", {
+          position: toast.POSITION.TOP_CENTER,
+          theme: "colored",
+          icon: success
+         })
       }, (error) => {
-          console.log(error.text);
+        toast.info("Send Your Message !", {
+          position: toast.POSITION.TOP_CENTER,
+          theme: "colored",
+          icon: wrong
+         })
       });
       e.target.reset();
   };
+
 
 
   return (
@@ -28,35 +38,35 @@ const Contacts = () => {
       <div className="row">
 
         <div className="col py-5">
-            <form id="contact-form" ref={form} onSubmit={sendEmail}>
-              
-
+            <form id="contact-form " ref={form} onSubmit={sendEmail}>
+    
                 <div className="InputFile">
-                  <label className="form-label">Name</label>
-                  <input className="form-control py-2 m-auto px-3" type="text" name="from_name" placeholder="Example: Mr. X" />
+                  <p className="text-start mb-0 fs-4">Name</p>
+                  <input className="form-control py-2 m-auto px-3 fs-5" type="text" name="from_name" placeholder="Example: Mr. X" required />
                 </div>
 
                 <div className="InputFile">
-                  <label className="form-label">Email</label>
-                  <input className="form-control py-2 m-auto px-3" type="email" name="user_email" placeholder="Example: xyz@gmail.com"/>
+                  <p className="text-start mt-4 mb-0 fs-4">Email</p>
+                  <input className="form-control py-2 m-auto px-3 fs-5" type="email" name="user_email" placeholder="Example: xyz@gmail.com" required />
                 </div>
 
                 <div className="InputFile">
-                  <label>Subject</label>
-                  <input className="form-control py-2 m-auto px-3" type="text" name="subject" placeholder="Your Subject"/>
+                  <p className="text-start mt-4 mb-0 fs-4">Subject</p>
+                  <input className="form-control py-2 m-auto px-3 fs-5" type="text" name="subject" placeholder="Your Subject" required />
                 </div>
 
                 <div className="InputFile">
-                  <label className="form-label" >Message</label>
-                  <textarea  className="form-control py-2 m-auto px-3" name="message" placeholder="Your Message Here"></textarea>
+                  <p className="text-start mt-4 mb-0 fs-4" >Message</p>
+                  <textarea  className="form-control py-2 m-auto px-3 fs-5" name="message" placeholder="Your Message Here" required></textarea>
                 </div>
-                <Button className="mt-4"  type="submit" value="Send" >Send Mail</Button>
+                <Button className="mt-4 flex-left float-end px-5 py-3 fs-5"  type="submit" value="Send" >Send Mail</Button>
+                <ToastContainer />
             </form>
         </div>
 
 
         <div className="col">
-          <h2>E-mail</h2>
+          <h2 className="mt-5 ">E-mail</h2>
           <p>
             mr.sujon554@gmail.com{" "}
             <small>

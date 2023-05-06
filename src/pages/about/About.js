@@ -14,9 +14,9 @@ const About = () => {
 
           <h4>Full Stack Developer</h4>
           <h5>Front-end Developer &#9679; Web Developer &#9679;  Software Engineer</h5>
-          <Button className="px-4 py-3 m-4 ms-0"><a className="text-white text-decoration-none" href={Myresume} download="MD_MOSTOFA_Resume.fd.pdf">Get Resume</a></Button>
-          <Button href="#aboutInfo" className="px-4 py-3 bg-white text-success">
-            About Me
+          <Button className="px-4 py-3 m-4 ms-0"><a className="text-white text-decoration-none" href={Myresume} download="MD_MOSTOFA_Resume.fd.pdf">GET RESUME</a></Button>
+          <Button href="#aboutInfo" className="px-4 py-3  bg-white text-success">
+            ABOUT ME
           </Button>
         </Col>
 

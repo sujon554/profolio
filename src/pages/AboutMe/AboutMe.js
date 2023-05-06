@@ -35,8 +35,38 @@ const AboutMe = () => {
             am available for any kind of job opportunity that suits my
             interests.
           </p>
-          <Button className="px-4 py-3 m-4 "><a className="text-white text-decoration-none" href={Myresume} download="MD_MOSTOFA_Resume.fd.pdf">Get Resume</a></Button>
-          <Button className="px-4 py-3 bg-white text-success">About Me</Button>
+         
+         <h3 className="mb-0 mt-5">FOLLOW ME</h3>
+          <a
+            href="https://github.com/sujon554?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sujon554/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/sujon554/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-facebook"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/sujon554"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-twitter"></i>
+          </a>
         </Col>
 
         

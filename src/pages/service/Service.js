@@ -12,7 +12,7 @@ const Service = () => {
       <h1 className="py-4">SERVICES</h1>
       <div className="row row-cols-2 row-cols-md-4 mx-2">
         <div className="col">
-          <div className="columns p-3">
+          <div className="columns p-3 serviceCard">
             <Image src={design} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">WEB DESIGN</h5>
@@ -24,8 +24,8 @@ const Service = () => {
         </div>
 
         <div className="col">
-          <div className="columns p-3">
-            <Image src={frontent} className="card-img-top" alt="..." />
+          <div className="columns serviceCard p-2">
+            <Image src={frontent} className="card-img-top p-3" alt="..." />
             <div className="card-body">
               <h5 className="card-title">FRONTENT DEVELOPEMENT</h5>
               <p className="card-text">
@@ -36,24 +36,24 @@ const Service = () => {
         </div>
 
         <div className="col">
-          <div className="columns p-3">
-            <Image src={web} className="card-img-top" alt="..." />
+          <div className="columns serviceCard p-2">
+            <Image src={web} className="card-img-top px -3" alt="..." />
             <div className="card-body">
               <h5 className="card-title">WEB APPLICATION DEVELOPEMENT</h5>
               <p className="card-text">
-              Having an APP alongside the website is a must nowadays. I've developed various Apps like simple portfolio viewer to complex e-commerce to social media applications. Mostly used React-Native for app development.
+              Having an APP alongside the website is a must nowadays. I've developed various Apps like simple portfolio viewer to complex e-commerce to social media applications. Mostly used React-Native for app development. Mostly used React-Native for app.
               </p>
             </div>
           </div>
         </div>
       
         <div className="col">
-          <div className="columns p-3">
-            <Image src={modify} className="card-img-top" alt="..." />
+          <div className="columns serviceCard p-2">
+            <Image src={modify} className="card-img-top p-3" alt="..." />
             <div className="card-body">
               <h5 className="card-title">MODIFICATION</h5>
               <p className="card-text">
-                This is a longer 
+              I've created countless frontends starting from simple static layouts to complex dynamic layouts. Comfortable using CSS popular frameworks like Bootstrap, Tailwindcss, MUI, Ant-Design & CSS preprocessor SASS. Various JS frameworks like React.js & Next.js for single-page applications.
               </p>
             </div>
           </div>
