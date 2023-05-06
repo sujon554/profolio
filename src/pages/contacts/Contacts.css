@@ -5,3 +5,12 @@
 .col h2 {
     line-height: 3rem;
 }
+
+.InputFile {
+    width: 80%;
+}
+
+.InputFile {
+    /* margin: 10px 0px; */
+    flex: left;
+}

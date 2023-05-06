@@ -11,7 +11,7 @@ const Footer = () => {
             <small> &copy; 2022 All reserved Sujon Mostofa</small>
           </div>
           <div className="col">
-            <a href="https://www.github.com/sujon554/" target="_blank"  rel="noreferrer">
+            {/* <a href="https://www.github.com/sujon554/" target="_blank"  rel="noreferrer">
               <i className="fab fa-github"></i>
             </a>
             <a href="https://www.linkedin.com/in/sujon554/" target="_blank"  rel="noreferrer">
@@ -24,7 +24,7 @@ const Footer = () => {
 
             <a href="https://twitter.com/sujon554" target="_blank"  rel="noreferrer">
               <i className="fab fa-twitter"></i>
-            </a>
+            </a> */}
 
             <Button href="#about" id="myBtn" title="Go to top">
               <i className="fas fa-arrow-alt-circle-up"></i>

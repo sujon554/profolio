@@ -4,3 +4,7 @@
     border: 3px solid rgb(255, 255, 255);
     border-radius: 8px;
 }
+.card-text {
+    text-align: justify;
+    
+}
