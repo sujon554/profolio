@@ -11,7 +11,7 @@ import "./Swipers.css";
 import { EffectCoverflow, Pagination } from "swiper";
 
 
-import { Button, Image } from "react-bootstrap";
+import { Button, Container, Image } from "react-bootstrap";
 
 import photo from "../../images/projects/1.jpg";
 import photo2 from "../../images/projects/2.jpg";
@@ -27,7 +27,7 @@ import photo9 from "../../images/projects/9.jpg";
 const SwiperSlides = () => {
   return (
     <div className="swiperSlider">
-      <div className="container pb-5">
+      <Container className=" pb-5">
         <div className="title_wrapper">
           <div className="title_">
             <h1>Project's</h1>
@@ -251,7 +251,7 @@ const SwiperSlides = () => {
           </SwiperSlide>
 
         </Swiper>
-      </div>
+      </Container>
     </div>
   );
 };

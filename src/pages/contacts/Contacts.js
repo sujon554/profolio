@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Contacts.css";
-import { Button } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from "@emailjs/browser";
@@ -34,8 +34,8 @@ const Contacts = () => {
 
 
   return (
-    <div className="container py-5">
-      <div className="row">
+    <div className="py-5">
+      <Container className="row contacts">
 
         <div className="col py-5">
             <form id="contact-form " ref={form} onSubmit={sendEmail}>
@@ -120,7 +120,7 @@ const Contacts = () => {
           <h2>Address</h2>
           <p>Mirpur-1216, Dhaka, Bangladesh </p>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };

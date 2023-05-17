@@ -14,7 +14,7 @@ import 'animate.css';
 
 const SkillIcon = () => {
   return (
-    <Container>
+    <Container className="skillIcon">
       <Row>
         <h1>My Skill's</h1>
         <div className="animate__animated animate__backInLeft d-flex flex-row bd-highlight justify-content-center align-items-center mb-3">
