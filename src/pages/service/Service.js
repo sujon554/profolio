@@ -41,7 +41,7 @@ const Service = () => {
             <div className="card-body">
               <h5 className="card-title">WEB APPLICATION DEVELOPEMENT</h5>
               <p className="card-text">
-              Having an APP alongside the website is a must nowadays. I've developed various Apps like simple portfolio viewer to complex e-commerce to social media applications. Mostly used React-Native for app development. Mostly used React-Native for app.
+              Having an APP alongside the website is a must nowadays. I've developed various Web Sites like simple portfolio viewer to complex E-commerce to Anything Websites. Mostly used React for Web Application development. Mostly used MERN for your websites.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Service = () => {
             <div className="card-body">
               <h5 className="card-title">MODIFICATION</h5>
               <p className="card-text">
-              I've created countless frontends starting from simple static layouts to complex dynamic layouts. Comfortable using CSS popular frameworks like Bootstrap, Tailwindcss, MUI, Ant-Design & CSS preprocessor SASS. Various JS frameworks like React.js & Next.js for single-page applications.
+              This could involve changing the layout, color scheme, font choices, or other visual elements of a website. Adding or removing features from a website Web designers and developers might use tools like Front-end frameworks. This can help to keep the website relevant, engaging, and effective for its intended.
               </p>
             </div>
           </div>

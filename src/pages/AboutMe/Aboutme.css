@@ -85,10 +85,10 @@ transform: rotateX(90deg);
     transform: rotateX(90deg);
 }
 
-.fab {
+.info i {
 color: #ffffff;
 }
-.fab:hover {
+.info i:hover {
 color: #1e3233;
 font-size: 2rem;
 border-radius: 50%;

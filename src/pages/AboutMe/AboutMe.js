@@ -1,7 +1,6 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import './Aboutme.css'
-import Myresume from './MD_MOSTOFA_Resume.fd.pdf';
 import tailwind from "../../images/icon/tailwind.png";
 const AboutMe = () => {
   return (
@@ -26,12 +25,9 @@ const AboutMe = () => {
               
         <Col className="info ps-5">
           <p>
-            Hello ! I'm Mostofa Sujon, a junior software engineer. I develop web
-            application, mobile applications, and desktop applications. My core
-            skill is based on JavaScript and I love to do most of the things
-            using JavaScript. I love to make the web more open to the world. I
-            have graduated with a bachelor's degree in Computer Science
-            Engineering from Chandigarh University at Punjab, India in 2020. I
+           I'm Front-End Developer from 1.5 Years in Bangladesh.I Have Completed my Graduation in the field of Computer Science and Engineering(CSE) from of the renowned University in Dhaka. Which is Bangladesh University of Business and Technology(BUBT). <br/><br/>
+           
+           As a passionate Developer and long-time worked-in front-end development. I am confident in front-end technologies like JavaScript, react, next, redux, tailwind, bootstrap, material UI, firebase, git, Github, netlify and other also knowledge NodeJS, MongoDB, Express, devTool, JWT and others. I love to make the web more open to the world. I
             am available for any kind of job opportunity that suits my
             interests.
           </p>

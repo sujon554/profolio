@@ -9,3 +9,13 @@
 .InputFile {
     width: 100%;
 }
+
+.icon i {
+    color: #ffffff;
+    }
+.icon i:hover {
+    color: #1e3233;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    }

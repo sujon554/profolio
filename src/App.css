@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300;400;700&display=swap');
 .App {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif,  'Battambang', cursive;
   text-align: center;
   background: rgb(33 37 41);
   color: #fff;

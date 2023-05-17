@@ -65,17 +65,23 @@ const Contacts = () => {
         </div>
 
 
-        <div className="col">
+        <div className="col icon">
           <h2 className="mt-5 ">E-mail</h2>
           <p>
             mr.sujon554@gmail.com{" "}
             <small>
-              <i>(recommended)</i>
+              <small>(recommended)</small>
             </small>
           </p>
 
           <h2>Social</h2>
-
+          <a
+            href="https://github.com/sujon554?tab=repositories"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github"></i>
+          </a>
           <a
             href="https://www.linkedin.com/in/sujon554/"
             target="_blank"
@@ -99,12 +105,15 @@ const Contacts = () => {
           >
             <i className="fab fa-twitter"></i>
           </a>
+         
+           
+      
 
           <h2>Phone</h2>
           <p>
             +8801729664554{" "}
             <small>
-              <i>(recommended)</i>
+              <small>(recommended)</small>
             </small>
           </p>
 
